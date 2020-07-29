@@ -8,3 +8,5 @@ A few important things: 
 - The structure of the code has changed such that one of the code parcels, hcp_load, is just doing a basic loading and processing of the data to then be saved into a csv (this section can be done by people who's computers can handle it). The second script is hcp_analyze and that is where the pca is done, graphs are printed, processing is applied, etc! 
 
 The goal is that the load data can handle separating the data into trial/test sets, conduct initial processing, and save the dataframe. The second script can then be worked on separately with lesser data, so work can be done with a lesser quality dataset while the data is being worked on by other people in the first script. 
+
+A long term idea would be to potentially have the initial loading script a python file, with the explanatory graphs moved into their own notebook script around comprehension.
